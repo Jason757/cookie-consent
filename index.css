@@ -67,15 +67,11 @@ main{
 .modal {
     display: none;
     position: fixed;
+    right: 0;
+    left: 0;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
-
-    align-self: baseline;
-
-
     height: 420px;
     width: 350px;
     border-radius: 5px;
@@ -127,6 +123,10 @@ main{
     justify-content: center;
 }
 
+.modal-choice-btns-reverse{
+    flex-direction: row-reverse;
+}
+
 .modal-btn{
     padding: 10px 24px;
     cursor: pointer;
@@ -157,4 +157,14 @@ input{
     height: 140px;
     line-height: 23px;
     margin-bottom: 0;
+}
+
+.idiot-gif{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.idiot-gif img{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
 }
